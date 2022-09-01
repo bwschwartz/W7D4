@@ -18,11 +18,8 @@
       margin-right: 10px;
       padding: 3px 3px 3px 3px;
       border-radius: 3px;
+      cursor: pointer;
     }
-  }
-
-  span {
-    
   }
 }
 
@@ -40,14 +37,6 @@ li {
       color: white;
       border-radius: 3px;
     }
-
-    > li:last-of-type {
-      
-    }
-  }
-  
-  i {
-    
   }
 }
 
@@ -65,8 +54,7 @@ li {
   background-color: lightgrey;
 }
 
-.left-nav > ul > .right-nav li:hover {
+.left-nav > ul > li:hover {
   background-color: lightgrey
 }
 
-    
