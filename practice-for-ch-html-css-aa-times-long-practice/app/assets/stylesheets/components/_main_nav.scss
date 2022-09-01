@@ -1,17 +1,23 @@
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: stretch;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+      margin-right: 10px;
+      padding: 3px 3px 3px 3px;
+      border-radius: 3px;
     }
   }
 
@@ -20,10 +26,19 @@
   }
 }
 
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 .right-nav  {
   > ul {
     > li {
-      
+      margin-right: 10px;
+      background-color: rgb(32, 79, 95);
+      padding: 3px 3px 3px 3px;
+      color: white;
+      border-radius: 3px;
     }
 
     > li:last-of-type {
@@ -36,9 +51,22 @@
   }
 }
 
-.left-nav > ul > li:hover,
-.right-nav > ul > li:last-of-type:hover {
-  
+.right_button:hover {
+  background-color: rgb(21, 51, 61);
+  color: white;
+}
+
+#gear {
+  align-self: center;
+  font-size: 16px;
+}
+
+#gear:hover {
+  background-color: lightgrey;
+}
+
+.left-nav > ul > .right-nav li:hover {
+  background-color: lightgrey
 }
 
     
